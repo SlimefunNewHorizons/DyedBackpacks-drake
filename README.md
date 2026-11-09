@@ -1,43 +1,81 @@
-> [!WARNING]
-> ### ⚠️ ARCHIVADO / CONSOLIDADO EN DRAKES-SUITES
-> Este repositorio ha sido consolidado de forma definitiva en el monorepo oficial:  
-> 👉 [**Drakes-Suites (Suite 5: DrakesUtility)**](https://github.com/SlimefunNewHorizons/Drakes-Suites)  
-> Todo el desarrollo activo, optimizaciones del Ticker Engine, compatibilidad con Paper 1.21.11 y preparación para 26.X se realiza exclusivamente allí.
+<div align="center">
 
-# DyedBackpacks
-A brand new Slimefun addon adding the ability to dye your beloved backpacks!
-- Dye all your backpacks by using the wools with the wanted color.
-- Supports all 16 Minecraft default colors.
-- Extensive configuration options! Disable/Enable backpack coloring per level.
+# ⚡ DyedBackpacks — Drake Edition
 
-## Download DyedBackpacks
-You can download DyedBackpacks right here: [Development Builds](https://thebusybiscuit.github.io/builds/TheBusyBiscuit/DyedBackpacks/master/)
+**Customizable Color-Dyed Player Backpacks with Instant Filtering & Tiered Storage**
 
-<p align="center">
-  <a href="https://thebusybiscuit.github.io/builds/TheBusyBiscuit/DyedBackpacks/master/">
-    <img src="https://thebusybiscuit.github.io/builds/TheBusyBiscuit/DyedBackpacks/master/badge.svg" alt="Build Server"/>
-  </a>
+<p>
+  <a href="https://github.com/SlimefunNewHorizons/DyedBackpacks-drake"><img src="https://img.shields.io/badge/GitHub-DyedBackpacks-181717?style=for-the-badge&logo=github" alt="GitHub"/></a>
+  <img src="https://img.shields.io/badge/Slimefun4-Drake_Edition-22C55E?style=for-the-badge&logo=curseforge&logoColor=white" alt="Slimefun4"/>
+  <img src="https://img.shields.io/badge/Paper-1.21.11-38BDF8?style=for-the-badge&logo=minecraft&logoColor=white" alt="Paper 1.21.11"/>
+  <img src="https://img.shields.io/badge/Java-21-F89820?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java 21"/>
 </p>
 
-## Discord
-You can find Slimefun's community on Discord!
-Click the badge down below to join the server for suggestions/questions or other discussions about this plugin.
+[🇬🇧 **English**](README.md) · [🇪🇸 **Español**](README_ES.md)
 
-<p align="center">
-  <a href="https://discord.gg/slimefun">
-    <img src="https://discordapp.com/api/guilds/565557184348422174/widget.png?style=banner3" alt="Discord Invite"/>
-  </a>
-</p>
+</div>
 
-## Open Source
-This Project is open-source and licensed under the [MIT License](https://github.com/TheBusyBiscuit/DyedBackpacks/blob/master/LICENSE)
+> ### 🏰 Join the Official DrakesCraft Community!
+> 
+> * 🎮 **Server IP**: `mc.drakescraft.cl` *(Java 1.21.11 & Bedrock Port 25565 / 19132)*
+> * 💬 **Official Discord**: [discord.gg/drakescraft](https://discord.gg/rv3vtXZTk7) — *Check out `#general-english`!*
+> * 🌐 **Website & Guides**: [web.drakescraft.cl](https://web.drakescraft.cl) — 🛒 **Store**: [web.drakescraft.cl/store](https://web.drakescraft.cl/store.html)
+> 
+> *Play with this addon alongside 80+ optimized expansions live on our technical survival network!*
 
-<!-- DRAKES-STATUS:BEGIN -->
-> Estado de sincronizacion: **2026-04-24**.
-> Baseline tecnico vigente: **Paper 1.21.1 + Java 21**.
-> CI principal en `main`: **Gates 1-5 en verde**.
-> Nota: el monorepo completo sigue en migracion incremental por lotes.
-<!-- DRAKES-STATUS:END -->
+---
+
+## 📖 What is DyedBackpacks?
+
+DyedBackpacks introduces fully colorable, expandable backpacks to Slimefun. Dye your packs in all 16 Minecraft colors, upgrade internal capacity tiers, and filter item deposits automatically.
+
+---
+
+## ⚙️ Key Features & Systems
+
+* 🎒 **16 Dye Colors**: Personalize backpacks to color-code equipment, ores, farming produce, and tools.
+* 📈 **Tiered Capacity**: Upgrade from small travel packs to massive multi-row expedition rucksacks.
+* ⚡ **Quick Deposit & Filtering**: Auto-sort items from your player inventory into designated packs upon collection.
+
+---
+
+## 📋 Technical Compatibility
+
+| Parameter | Requirement |
+|---|---|
+| **Server Software** | Paper / Purpur / Folia **1.21.11** |
+| **Java Runtime** | **Java 21** LTS |
+| **Required Core** | [Slimefun4-Drake](https://github.com/SlimefunNewHorizons/Slimefun4-Drake) |
+| **Architecture** | 100% Server-Side (Vanilla Minecraft clients can join without installing client mods) |
+
+---
+
+## 📥 Installation
+
+1. Download the latest release `.jar` from the [Releases](https://github.com/SlimefunNewHorizons/DyedBackpacks-drake/releases) tab or [Modrinth](https://modrinth.com/organization/drakescraft-labs).
+2. Place the `.jar` into your server's `plugins/` directory alongside `Slimefun4-Drake.jar`.
+3. Start or restart your server. Recipes and machines will appear automatically in the Slimefun guide (`/sf guide`).
+
+---
+
+## 🛠️ Building from Source
+
+```bash
+git clone https://github.com/SlimefunNewHorizons/DyedBackpacks-drake.git
+cd DyedBackpacks-drake
+mvn clean package -DskipTests
+```
+
+The compiled artifact will be located under `target/DyedBackpacks-drake.jar`.
+
+---
+
+<div align="center">
+
+**Developed and Maintained by [DrakesCraft Labs](https://github.com/SlimefunNewHorizons)**  
+Licensed under **MIT**.
+
+</div>
 
 ---
 
@@ -45,6 +83,6 @@ This Project is open-source and licensed under the [MIT License](https://github.
 
 This project is a sovereign fork maintained by [**JackStar6677-1**](https://github.com/JackStar6677-1) under [**DrakesCraft Labs**](https://github.com/SlimefunNewHorizons).
 
-- **Original Project:** Created by the upstream authors and the open-source community.
-- **DrakesCraft Optimizations:** Modernized for Paper/Purpur 1.21.11+, Java 21, high concurrency, asynchronous safety, and exploit/duplication prevention.
-- **License:** Distributed under the original **GNU General Public License v3.0 (GPLv3)** (or original upstream license). See the [LICENSE](LICENSE) file for complete terms.
+- **Original Project:** Created by the upstream authors and the open-source community ([Upstream Repository](https://github.com/Slimefun)).
+- **DrakesCraft Optimizations:** Modernized for Paper/Purpur 1.21.11+, Java 21 LTS, high concurrency, asynchronous safety, and exploit/duplication prevention.
+- **License:** Distributed under the original **MIT** license terms. See the [LICENSE](LICENSE) file for complete details.
